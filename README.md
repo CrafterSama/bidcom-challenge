@@ -1,7 +1,17 @@
-## Getting Started
+## Para empezar
 
-First, run the development server:
+Primero, instala todos los paquetes
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
 
+Luego, corre el server en modo desarrollo:
 ```bash
 npm run dev
 # or
@@ -12,7 +22,7 @@ pnpm dev
 bun dev
 ```
 
-Para correr el test
+Al Final, para correr un test
 
 ```bash
 npm run test
@@ -27,4 +37,4 @@ bun test
 Abrir en [http://localhost:3000](http://localhost:3000)
 
 En este Challenge me concentre mucho mas en la architectura de todo y tratar de componetizar y separar todo lo mas que se pueda tratando de darle una 
-sola responsabilidad a cada componente, función o hook, y tratande de separar lo mejor posible las responsabilidades de cada cosa.
+sola responsabilidad a cada componente, función o hook, y tratando de separar lo mejor posible las responsabilidades de cada cosa.
