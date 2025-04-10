@@ -119,7 +119,4 @@
   body {
     @apply bg-background text-foreground;
   }
-  .image-profile {
-    border-radius: var(--radius-lg) var(--radius) var(--radius) var(--radius-lg);
-  }
 }
