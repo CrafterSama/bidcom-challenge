@@ -10,6 +10,9 @@ const customJestConfig = {
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/app/$1",
   },
+  transform: {
+    "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/jest-transformer.js",
+  },
 };
 
 module.exports = createJestConfig(customJestConfig);
