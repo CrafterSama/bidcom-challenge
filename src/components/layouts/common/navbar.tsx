@@ -1,4 +1,4 @@
-import { AlignRight } from "lucide-react";
+import { Text } from "lucide-react";
 
 const NavBar = () => {
   return (
@@ -10,8 +10,8 @@ const NavBar = () => {
           </div>*/}
         </div>
         <div className="flex items-center gap-4">
-          <button>
-            <AlignRight className="h-8 w-8" />
+          <button className="cursor-pointer rotate-180">
+            <Text className="h-8 w-8" />
           </button>
         </div>
       </div>

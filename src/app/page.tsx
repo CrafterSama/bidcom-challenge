@@ -1,5 +1,6 @@
 "use client";
 
+import FloatingButton from "@/components/layouts/common/floating-button";
 import ImagesSkeleton from "@/components/layouts/common/images-skeleton";
 import InfoSkeleton from "@/components/layouts/common/info-skeleton";
 import SiteLayout from "@/components/layouts/site-layout";
@@ -32,6 +33,7 @@ const Home = () => {
           />
         )}
       </div>
+      <FloatingButton />
     </SiteLayout>
   );
 };

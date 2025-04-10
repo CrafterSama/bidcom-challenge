@@ -1,8 +1,7 @@
 import { api } from "@/utils/axios";
 
 export const getProfileInfo = async () => {
-  const res = await fetch("/api/get-profile-info");
-  const data = await res.json();
+  const { data } = await api.get("/api/get-profile-info");
   return data;
 };
 
