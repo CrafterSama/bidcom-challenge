@@ -1,3 +1,40 @@
+## Tecnologias utilizadas
+React, Next.js, TailwinCSS, ShadCN, Tanstack Query, Axios, Jest, React Testing Library
+
+Todo se creo de forma tal que se pudiera presentar lo solicitado, lo cual se logro, sin dejar de lado que el desarrollo de este challenge para mi busca mostrar la forma en como se deberia abordar un proyecto, tratando de hacer buen uso del patron modular lo que conlleva una separarción clara de responsabilidades.
+
+El patrón modular se traduce en organizar lógica por dominio o feature en módulos autocontenidos, que pueden incluir:
+
+   Componentes (components/modules/feature) ✔️
+   Hook(s) (hooks/useFeature) ✔️
+   Estado global (state-management/store/featureStore) No presdente en este challenge por razones de no haber contenido como para necesitarlo y no hacer sobreingenieria.
+   Servicios o APIs (services/featureService) ✔️
+   Tipos (types/featureTypes.ts) ✔️
+   Constantes (constants/featureConstants.ts) ✔️
+
+Ejemplo de scaffolding con el Patron Modular:
+
+src/
+├── app/                            # Rutas, layouts
+├── components/
+│   └── modules/
+│       └── profile/
+│           ├── ProfileInfo.tsx
+│           ├── ProfileImage.tsx
+│           └── index.ts           # Re-exportador
+├── hooks/
+│   └── useProfile.ts
+├── services/
+│   └── profileService.ts
+├── state-management/
+│   └── store/
+│       └── profileStore.ts
+├── types/
+│   └── profileTypes.ts
+├── constants/
+│   └── profileConstants.ts
+
+
 ## Para empezar
 
 Primero, instala todos los paquetes
