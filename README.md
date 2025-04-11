@@ -1,5 +1,5 @@
 ## Tecnologias utilizadas
-React, Next.js, TailwinCSS, ShadCN, Tanstack Query, Axios, Jest, React Testing Library
+Typescript, React, Next.js, TailwinCSS, ShadCN, Tanstack Query, Axios, Jest, React Testing Library
 
 Todo se creo de forma tal que se pudiera presentar lo solicitado, lo cual se logro, sin dejar de lado que el desarrollo de este challenge para mi busca mostrar la forma en como se deberia abordar un proyecto, tratando de hacer buen uso del patron modular lo que conlleva una separarción clara de responsabilidades y mejora la mantenibilidad y reusabilidad de componentes y/o metodos/funciones.
 
