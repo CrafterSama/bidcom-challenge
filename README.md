@@ -9,7 +9,7 @@ Todo se creo de forma tal que se pudiera presentar lo solicitado, lo cual se log
    
    Hook(s) (hooks/useFeature) ✔️
    
-   Estado global o local (state-management/store/featureStore) No presdente en este challenge por razones de no haber contenido como para necesitarlo y no hacer sobreingenieria.
+   Estado global o local (state-management/store/featureStore) No presente en este challenge por razones de no haber contenido como para necesitarlo y no hacer sobreingenieria.
    
    Servicios o APIs (services/featureService) ✔️
    
