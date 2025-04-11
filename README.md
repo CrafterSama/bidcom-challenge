@@ -37,4 +37,4 @@ bun test
 Abrir en [http://localhost:3000](http://localhost:3000)
 
 En este Challenge me concentre mucho mas en la architectura de todo y tratar de componetizar y separar todo lo mas que se pueda tratando de darle una 
-sola responsabilidad a cada componente, función o hook, y tratando de separar lo mejor posible las responsabilidades de cada cosa.
+sola responsabilidad a cada componente, función o hook, siempre tratando de separar lo mejor posible las responsabilidades de cada cosa, zapatero a su zapato.
