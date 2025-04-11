@@ -43,11 +43,11 @@ src/
 
 ### Claves del patrón modular aplicado en React
 
-    Cada feature tiene su "módulo" autocontenido.
+Cada feature tiene su "módulo" autocontenido.
 
-    Se mantiene la separación de responsabilidades: UI, lógica, estado y servicios.
+Se mantiene la separación de responsabilidades: UI, lógica, estado y servicios.
 
-    Facilita el escalado del proyecto.
+Facilita el escalado del proyecto.
 
     
 ### Para empezar
