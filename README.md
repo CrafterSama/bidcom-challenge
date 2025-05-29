@@ -21,24 +21,27 @@ Todo se creo de forma tal que se pudiera presentar lo solicitado, lo cual se log
 
 ```bash
 src/
-├── app/                            # Rutas, layouts
+├── app/                            # Rutas, layouts, api
 ├── components/
 │   └── modules/
-│       └── profile/
-│           ├── ProfileInfo.tsx
-│           ├── ProfileImage.tsx
-│           └── index.ts           # Re-exportador
-├── hooks/
-│   └── useProfile.ts
+│   |   └── profile/
+│   |       ├── profile-info.tsx
+│   |       ├── profile-image.tsx
+│   |       └── index.ts           # Re-exportador
+|   └── ui/                        # Shadcn UI
+├── hooks/                         # Queries and Mutators of React Query, and custom hooks
+│   └── use-profile.ts             
 ├── services/
-│   └── profileService.ts
-├── state-management/
+│   └── profile-service.ts         # API actions with axios
+├── state-management/              # zustand for the state management
 │   └── store/
-│       └── profileStore.ts
+│       └── profile-store.ts
 ├── types/
-│   └── profileTypes.ts
+│   └── profile-types.ts
 ├── constants/
-│   └── profileConstants.ts
+│   └── profile-constants.ts
+├── utils/
+│   └── common.ts
 ```
 
 ### Claves del patrón modular aplicado en React
